@@ -24,7 +24,7 @@ from pprint import pprint
 #path = os.path.abspath(pathname)
 
 # Load Iris dataset
-data1 = pd.read_csv("data/poisoned_data50.csv")
+data1 = pd.read_csv("data/data.csv")
 
 # Create Test Train Data
 train, test = train_test_split(
